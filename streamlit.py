@@ -22,8 +22,8 @@ collection = db[mongo_collection]
 
 # Create a connection to the MySQL server
 mysql_host = 'localhost'
-mysql_user = 'root'
-mysql_password = 'mysql@123'
+mysql_user = 'user_name'
+mysql_password = 'password'
 mysql_database = 'youtube_data'
 cnxn = mysql.connector.connect(
     host=mysql_host,
